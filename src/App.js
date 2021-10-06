@@ -1,9 +1,10 @@
 import { Detail, Checkout, Keranjang, Chat, SearchPage, Home } from "./pages";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
 function App() {
   return (
     <Router>
+      <Redirect from="/" to="/home" />
       <Route path="/home" component={Home} />
       <Route path="/detail" component={Detail} />
       <Route path="/checkout" component={Checkout} />
