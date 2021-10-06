@@ -48,15 +48,6 @@ export default function Checkout() {
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
-                  href="#search"
-                  onClick={() => history.push("/checkout")}
-                >
-                  Checkout
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
                   class="nav-link"
                   href="#chat"
                   onClick={() => history.push("/chat")}
