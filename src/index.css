@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .jumbotron {
+  padding: 2rem 1rem;
+  background-color: aqua;
+} */
+.background-image {
+  background-image: url("https://th.bing.com/th/id/OIP.uA-Y1ElOqRbl87cqDJQ6dwHaEu?w=289&h=184&c=7&r=0&o=5&pid=1.7");
+  background-color: #aaa3a3;
+  background-size: cover;
+  padding-top: 70px;
 }
