@@ -1,6 +1,8 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 export default function Detail() {
+  const history = useHistory();
   return (
     <>
       {/* <!-- Navbar --> */}
@@ -26,8 +28,14 @@ export default function Detail() {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="#infoproduct"
+                  href="#back"
+                  onClick={() => history.goBack()}
                 >
+                  Kembali
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#infoproduct">
                   Info Product
                 </a>
               </li>
