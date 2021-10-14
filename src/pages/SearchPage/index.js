@@ -90,7 +90,6 @@ export default function SearchPage() {
       {/* <!--Akhir Navbar--> */}
 
       {/* <!--Search--> */}
-
       <section id="search">
         <div class="container">
           <div class="row text-center mb-2 pt-5">
@@ -100,12 +99,13 @@ export default function SearchPage() {
           </div>
           <div class="row justify-content-center">
             <form class="d-flex">
+              {" "}
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Office Electronics"
+                placeholder="Samsung"
                 aria-label="Search"
-              />
+              />{" "}
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
@@ -113,30 +113,27 @@ export default function SearchPage() {
           </div>
         </div>
       </section>
-
-      {/* <!--Akhir Search--> */}
+      {/* // <!--Akhir Search--> */}
 
       {/* <!-- Search--> */}
-
       <section id="search">
         <div class="container">
-          <div class="row text-sm-start mb-4 fs-6 pt-9">
+          <div class="row text-sm-start mb-4 fs-6 pt-9 ">
             <div class="col-6 md-6 mt-3">
-              <h4 class="fw-lighter">Hasil Pencarian</h4>
+              <h4 class="fw-lighter">Hasil Pencarian </h4>
             </div>
           </div>
           <div class="row justify-content-center">
             <div class="col-md-4">
-              <div class="card" onClick={() => history.push("/detail")}>
+              <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/laptop.jpg"
                   class="card-img-top"
-                  alt="projects1"
+                  alt="baris pertama"
                 />
-                <div class="card-body">
+                <div class="card-body text-center">
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    LAPTOP ASUS A412FA N5405U 8GB 1TB UHD GRAPHIC WIN10 SLIM
                   </p>
                 </div>
               </div>
@@ -144,71 +141,57 @@ export default function SearchPage() {
             <div class="col-md-4">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/galaxys21 ultra g.webp"
                   class="card-img-top"
-                  alt="projects2"
+                  alt="baris kedua"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy S21 Ultra 5G</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1604088069732-ff0249c1e824?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/galaxy20fe.webp"
                   class="card-img-top"
-                  alt="projects3"
+                  alt="baris ketiga"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy S20 F</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1586645068267-21a3e8949fdb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-s10-sm-g970-sm-g970fzwdxid-thumb-211380564.webp"
                   class="card-img-top"
-                  alt="projects4"
+                  alt="baris keempat"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy S10</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-s21-5g-g991-371107-sm-g991bzvdxid-thumb-368338109.webp"
                   class="card-img-top"
-                  alt="projects5"
+                  alt="baris kelima"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy S21 5G</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       {/* <!--Akhir Search--> */}
 
       {/* <!-- Other --> */}
-
       <section id="other">
         <div class="container">
           <div class="row text-center pt-5">
@@ -220,101 +203,81 @@ export default function SearchPage() {
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-z-flip3-f711-5g-sm-f711bzeaxid-thumb-474118036.webp"
                   class="card-img-top"
-                  alt="projects1"
+                  alt="baris pertama bawah"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy Z Flip 3 5G</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-s10-lite-g770-sm-g770fzbixid-frontprismblue-thumb-204014484.webp"
                   class="card-img-top"
-                  alt="projects2"
+                  alt="baris kedua bawah"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy S10 Lite</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-m51-m515f-sm-m515fzkexid-lsideblack-thumb-295901771.webp"
                   class="card-img-top"
-                  alt="projects3"
+                  alt="baris ketiga bawah"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy M51</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-z-fold3-f926-5g-399109-sm-f926bzuzxid-thumb-481156492.webp"
                   class="card-img-top"
-                  alt="projects3"
+                  alt="baris keempat bawah"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy Z Fold 3 </p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1532186773960-85649e5cb70b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/f1-QN700A-160x160.webp"
                   class="card-img-top"
-                  alt="projects3"
+                  alt="baris kelima bawah"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Samsung TV QN700A</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mt-5">
               <div class="card">
                 <img
-                  src="https://images.unsplash.com/photo-1592659762303-90081d34b277?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGVsZWN0cm9uaWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                  src="img/id-galaxy-a52s-5g-a528-sm-a528bzkhxid-thumb-497588277.webp"
                   class="card-img-top"
-                  alt="projects3"
+                  alt="baris keenam bawah"
                 />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <div class="card-body text-center">
+                  <p class="card-text">Galaxy A52 5G</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       {/* <!-- Akhir Other --> */}
 
       {/* <!-- Contact --> */}
-
       <section id="contact">
         <div class="container">
           <div class="row text-center pt-5">
@@ -361,23 +324,17 @@ export default function SearchPage() {
           </div>
         </div>
       </section>
-
       {/* <!-- Akhir Contacts --> */}
 
       {/* <!-- Footer --> */}
-
       <footer class="bg-primary text-white text-center">
         <p>
-          Created APK by
-          <a
-            href="https://www.instagram.com/napermanaa1/"
-            class="text-white fw-bold"
-          >
+          Created APK by{" "}
+          <a href="https://www.instagram.com/napermanaa1/" fw-bold>
             EL Market.
           </a>
         </p>
       </footer>
-
       {/* <!-- Akhir Footer --> */}
     </>
   );

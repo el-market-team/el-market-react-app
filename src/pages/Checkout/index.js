@@ -87,10 +87,10 @@ export default function Checkout() {
           </div>
         </div>
       </nav>
-      <div className="background-image">
-        {/* <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-          <div className="container-fluid text-light">
-            <Link className="navbar-brand text-light" to="/keranjang">
+      {/* <div className="background-image"> */}
+      {/* <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div className="container-fluid">
+            <Link className="navbar-brand" to="/keranjang">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -103,7 +103,7 @@ export default function Checkout() {
               </svg>
             </Link>
             <button
-              className="navbar-toggler text-light"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -111,105 +111,103 @@ export default function Checkout() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon text-light"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
           </div>
         </nav> */}
-        <section id="projects" className="text-center">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className="bg-transparent text-light">
-                  <h1>Alamat Pengiriman</h1>
-                  <h6>
-                    trixy. (+62) 81292392209 JL.Buaya IX no.99 pondok indah KOTA
-                    BEKASI-MUSTIKA,SARI,JAYA,JAWA BARAT,ID 14045
-                  </h6>
-                </div>
-                <h1 className="text-light">
-                  <img
-                    src="https://th.bing.com/th/id/OIP.tR1cEv2oswraLVQd73xfYgHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7"
-                    alt="gambar-aminasi"
-                    width="50"
-                    className="rounded-circle text-light"
-                  />
-                  ROZES.STORE
-                </h1>
-                <div
-                  className="card mb-3 container bg-transparent"
-                  style={{ maxWidth: "540px" }}
-                >
-                  <div className="row g-0">
-                    <div className="col-md-4">
-                      <img
-                        className="mt-300"
-                        src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
-                        alt="gambar-aminasi"
-                        width="200"
-                      />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                        <h5 className="card-title text-light">
-                          Laptop Geming ROG
-                        </h5>
-                        <p className="card-text text-light">RP.13.499.999</p>
-                        <p className="card-text">
-                          <small className="text-light"></small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="bg-transparent text-light">
-                  <h1>OPSI PENGIRIMAN</h1>
-                  <h3>Regular</h3>
-                  <h6>akan diterima pada tanggal 27 jul-30 jul</h6>
-                </div>
-                <div className="bg-transparent text-light">
-                  <h3>Pesan: Giveaway</h3>
-                </div>
-                <div className="bg-transparent text-light">
-                  <h3>Total Pesanan (1 Produk):RP 13.499.999</h3>
-                </div>
-                <div className="bg-transparent text-light">
-                  <h3>Metode Pembayaran:BANK BCA</h3>
-                </div>
-                <div className="bg-transparent text-light">
-                  <h6>Subtotal untuk produk :RP 13.499.999</h6>
-                  <h6>Subtotal Pengiriman :RP 17.000</h6>
-                  <h6>Biaya penanganan:RP 4.500</h6>
-                  <h1>Total Pembayaran: RP 13.521.499</h1>
-                </div>
-                <section className="contact">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-6">
-                        <form>
-                          <div className="mb-3 form-check">
-                            <input
-                              type="checkbox"
-                              className="form-check-input"
-                              id="exampleCheck1"
-                            />
-                            <label
-                              className="form-check-label text-white"
-                              for="exampleCheck1"
-                            >
-                              Semua SupTotal: RP 13.521.499
-                            </label>
-                          </div>
-                          <button className="btn btn-primary">Checkout</button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+      <section id="projects" className="text-center mt-4 pt-4">
+        <div className="container mt-4 pt-4">
+          <div className="row">
+            <div className="col">
+              <div className="bg-transparent">
+                <h1>Alamat Pengiriman</h1>
+                <h6>
+                  trixy. (+62) 81292392209 JL.Buaya IX no.99 pondok indah KOTA
+                  BEKASI-MUSTIKA,SARI,JAYA,JAWA BARAT,ID 14045
+                </h6>
               </div>
+              <h1 className="">
+                <img
+                  src="https://th.bing.com/th/id/OIP.tR1cEv2oswraLVQd73xfYgHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7"
+                  alt="gambar-aminasi"
+                  width="50"
+                  className="rounded-circle"
+                />
+                ROZES.STORE
+              </h1>
+              <div
+                className="card mb-3 container bg-transparent"
+                style={{ maxWidth: "540px" }}
+              >
+                <div className="row g-0">
+                  <div className="col-md-4">
+                    <img
+                      className="mt-300"
+                      src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
+                      alt="gambar-aminasi"
+                      width="200"
+                    />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h5 className="card-title">Laptop Geming ROG</h5>
+                      <p className="card-text">RP.13.499.999</p>
+                      <p className="card-text">
+                        <small className=""></small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-transparent">
+                <h1>OPSI PENGIRIMAN</h1>
+                <h3>Regular</h3>
+                <h6>akan diterima pada tanggal 27 jul-30 jul</h6>
+              </div>
+              <div className="bg-transparent">
+                <h3>Pesan: Giveaway</h3>
+              </div>
+              <div className="bg-transparent">
+                <h3>Total Pesanan (1 Produk):RP 13.499.999</h3>
+              </div>
+              <div className="bg-transparent">
+                <h3>Metode Pembayaran:BANK BCA</h3>
+              </div>
+              <div className="bg-transparent">
+                <h6>Subtotal untuk produk :RP 13.499.999</h6>
+                <h6>Subtotal Pengiriman :RP 17.000</h6>
+                <h6>Biaya penanganan:RP 4.500</h6>
+                <h1>Total Pembayaran: RP 13.521.499</h1>
+              </div>
+              <section className="contact">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <form>
+                        <div className="mb-3 form-check">
+                          <input
+                            type="checkbox"
+                            className="form-check-input"
+                            id="exampleCheck1"
+                          />
+                          <label
+                            className="form-check-label text-white"
+                            for="exampleCheck1"
+                          >
+                            Semua SupTotal: RP 13.521.499
+                          </label>
+                        </div>
+                        <button className="btn btn-primary">Checkout</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      {/* </div> */}
     </>
   );
 }

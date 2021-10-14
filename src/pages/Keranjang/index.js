@@ -86,10 +86,10 @@ export default function Keranjang() {
           </div>
         </div>
       </nav>
-      <div className="background-image">
-        {/* <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-          <div className="container-fluid text-light">
-            <Link className="navbar-brand text-light" to="/chat">
+      {/* <div className="background-image"> */}
+      {/* <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div className="container-fluid">
+            <Link className="navbar-brand" to="/chat">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -103,7 +103,7 @@ export default function Keranjang() {
               </svg>
             </Link>
             <button
-              className="navbar-toggler text-light"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -111,117 +111,105 @@ export default function Keranjang() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon text-light"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
           </div>
         </nav> */}
-        <section href="keranjang.html" className="text-center">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <section id="projects" className="text-center">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col">
-                        <h1 className="text-light">ROZES.STORE</h1>
-                        <div
-                          className="card mb-3 container bg-transparent"
-                          style={{ maxWidth: "540px" }}
-                        >
-                          <div className="row g-0">
-                            <div className="col-md-4">
-                              <img
-                                src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
-                                alt="gambar-aminasi"
-                                width="200"
-                              />
-                            </div>
-                            <div className="col-md-8">
-                              <div className="card-body">
-                                <h5 className="card-title text-light">
-                                  Laptop Geming ROG
-                                </h5>
-                                <p className="card-text text-light">
-                                  RP.13.499.999
-                                </p>
-                                <p className="card-text">
-                                  <small className="text-light">-1+</small>
-                                </p>
-                              </div>
+      <section href="keranjang.html" className="text-center mt-4 pt-4">
+        <div className="container mt-4 pt-4">
+          <div className="row">
+            <div className="col">
+              <section id="projects" className="text-center">
+                <div className="container">
+                  <div className="row">
+                    <div className="col">
+                      <h1 className="">ROZES.STORE</h1>
+                      <div
+                        className="card mb-3 container bg-transparent"
+                        style={{ maxWidth: "540px" }}
+                      >
+                        <div className="row g-0">
+                          <div className="col-md-4">
+                            <img
+                              src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
+                              alt="gambar-aminasi"
+                              width="200"
+                            />
+                          </div>
+                          <div className="col-md-8">
+                            <div className="card-body">
+                              <h5 className="card-title">Laptop Geming ROG</h5>
+                              <p className="card-text">RP.13.499.999</p>
+                              <p className="card-text">
+                                <small className="">-1+</small>
+                              </p>
                             </div>
                           </div>
                         </div>
-                        <h1 className="text-light">ROZES.STORE</h1>
-                        <div
-                          className="card mb-3 container bg-transparent"
-                          style={{ maxWidth: "540px" }}
-                        >
-                          <div className="row g-0">
-                            <div className="col-md-4">
-                              <img
-                                src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
-                                alt="gambar-aminasi"
-                                width="200"
-                              />
-                            </div>
-                            <div className="col-md-8">
-                              <div className="card-body">
-                                <h5 className="card-title text-light">
-                                  Laptop Geming ROG
-                                </h5>
-                                <p className="card-text text-light">
-                                  RP.13.499.999
-                                </p>
-                                <p className="card-text">
-                                  <small className="text-light">-1+</small>
-                                </p>
-                              </div>
+                      </div>
+                      <h1 className="">ROZES.STORE</h1>
+                      <div
+                        className="card mb-3 container bg-transparent"
+                        style={{ maxWidth: "540px" }}
+                      >
+                        <div className="row g-0">
+                          <div className="col-md-4">
+                            <img
+                              src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
+                              alt="gambar-aminasi"
+                              width="200"
+                            />
+                          </div>
+                          <div className="col-md-8">
+                            <div className="card-body">
+                              <h5 className="card-title">Laptop Geming ROG</h5>
+                              <p className="card-text">RP.13.499.999</p>
+                              <p className="card-text">
+                                <small className="">-1+</small>
+                              </p>
                             </div>
                           </div>
                         </div>
-                        <h1 className="text-light">ROZES.STORE</h1>
-                        <div
-                          className="card mb-3 container bg-transparent"
-                          style={{ maxWidth: "540px" }}
-                        >
-                          <div className="row g-0">
-                            <div className="col-md-4">
-                              <img
-                                src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
-                                alt="gambar-aminasi"
-                                width="200"
-                              />
-                            </div>
-                            <div className="col-md-8">
-                              <div className="card-body">
-                                <h5 className="card-title text-light">
-                                  Laptop Geming ROG
-                                </h5>
-                                <p className="card-text text-light">
-                                  RP.13.499.999
-                                </p>
-                                <p className="card-text">
-                                  <small className="text-light">-1+</small>
-                                </p>
-                              </div>
+                      </div>
+                      <h1 className="">ROZES.STORE</h1>
+                      <div
+                        className="card mb-3 container bg-transparent"
+                        style={{ maxWidth: "540px" }}
+                      >
+                        <div className="row g-0">
+                          <div className="col-md-4">
+                            <img
+                              src="https://th.bing.com/th/id/OIP.ceAFwQY6RIRtJuh2W_ioNAHaFl?w=272&h=204&c=7&r=0&o=5&pid=1.7"
+                              alt="gambar-aminasi"
+                              width="200"
+                            />
+                          </div>
+                          <div className="col-md-8">
+                            <div className="card-body">
+                              <h5 className="card-title">Laptop Geming ROG</h5>
+                              <p className="card-text">RP.13.499.999</p>
+                              <p className="card-text">
+                                <small className="">-1+</small>
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </section>
-                <button
-                  className="btn btn-primary"
-                  onClick={() => history.push("/checkout")}
-                >
-                  Checkout
-                </button>
-              </div>
+                </div>
+              </section>
+              <button
+                className="btn btn-primary"
+                onClick={() => history.push("/checkout")}
+              >
+                Checkout
+              </button>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      {/* </div> */}
     </>
   );
 }
