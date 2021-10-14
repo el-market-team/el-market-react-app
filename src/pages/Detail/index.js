@@ -112,10 +112,10 @@ export default function Detail() {
         <div class="container">
           <div class="row text-end">
             <div class="col">
-              <a class="btn btn-primary btn-lg" href="#" role="button">
+              <a class="btn btn-primary btn-lg" href="*" role="button">
                 Buy Now
               </a>
-              <a class="btn btn-primary btn-lg" href="#" role="button">
+              <a class="btn btn-primary btn-lg" href="*" role="button">
                 Wishlist
               </a>
               <hr class="my-4" />
