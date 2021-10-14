@@ -125,7 +125,7 @@ export default function SearchPage() {
           </div>
           <div class="row justify-content-center">
             <div class="col-md-4">
-              <div class="card">
+              <div class="card" onClick={() => history.push("/detail")}>
                 <img
                   src="img/laptop.jpg"
                   class="card-img-top"
